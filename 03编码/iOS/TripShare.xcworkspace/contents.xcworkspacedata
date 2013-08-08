@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:TripShareUI/TripShareUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BLL/BLL.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Entity/Entity.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TripShareCommon/TripShareCommon.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AccessLayer/AccessLayer.xcodeproj">
+   </FileRef>
+</Workspace>

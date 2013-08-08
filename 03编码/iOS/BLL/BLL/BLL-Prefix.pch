@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BLL' target in the 'BLL' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
