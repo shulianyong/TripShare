@@ -124,7 +124,6 @@
 		A63463D4179CD54B00261247 = {
 			isa = PBXGroup;
 			children = (
-				A6E8D7F517B0EAA600370409 /* libBLL.a */,
 				A63463E6179CD54B00261247 /* TripShareUI */,
 				A6346410179CD54B00261247 /* TripShareUITests */,
 				A63463DF179CD54B00261247 /* Frameworks */,
@@ -144,6 +143,7 @@
 		A63463DF179CD54B00261247 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6E8D7F517B0EAA600370409 /* libBLL.a */,
 				A6E8D7E817B0E5DB00370409 /* libsqlite3.0.dylib */,
 				A6E8D7E317B0E47D00370409 /* Security.framework */,
 				A6E8D7E117B0E47900370409 /* MobileCoreServices.framework */,
