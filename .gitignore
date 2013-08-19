@@ -1,7 +1,5 @@
-.DS_Store
-.git
-.svn
-*.xcodeproj
-*.pbproj
-*.pbxproj
-*.lproj
+03编码/iOS/.DS_Store
+
+*.xcuserstate
+
+03编码/iOS/TripShare.xcworkspace/xcuserdata/shuly.xcuserdatad/UserInterfaceState.xcuserstate

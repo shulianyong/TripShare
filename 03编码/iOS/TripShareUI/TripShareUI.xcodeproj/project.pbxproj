@@ -28,6 +28,10 @@
 		A65DB05217AB5A30005230B0 /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = A65DB05117AB5A30005230B0 /* provinces.plist */; };
 		A65DB05317AB5A30005230B0 /* provinces.plist in Resources */ = {isa = PBXBuildFile; fileRef = A65DB05117AB5A30005230B0 /* provinces.plist */; };
 		A65DB05617AB5AB9005230B0 /* provinceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A65DB05517AB5AB9005230B0 /* provinceTests.m */; };
+		A677CE0617C216B800C5044D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677CE0417C216B800C5044D /* LoginViewController.m */; };
+		A677CE0717C216B800C5044D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A677CE0517C216B800C5044D /* LoginViewController.xib */; };
+		A677CE0B17C2197800C5044D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677CE0917C2197800C5044D /* RegisterViewController.m */; };
+		A677CE0C17C2197800C5044D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A677CE0A17C2197800C5044D /* RegisterViewController.xib */; };
 		A6CB388C179E77420068543B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CB388B179E77420068543B /* QuartzCore.framework */; };
 		A6E8D7E017B0E47400370409 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8D7DF17B0E47400370409 /* SystemConfiguration.framework */; };
 		A6E8D7E217B0E47900370409 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8D7E117B0E47900370409 /* MobileCoreServices.framework */; };
@@ -79,6 +83,12 @@
 		A65DB05117AB5A30005230B0 /* provinces.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = provinces.plist; sourceTree = "<group>"; };
 		A65DB05417AB5AB9005230B0 /* provinceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = provinceTests.h; sourceTree = "<group>"; };
 		A65DB05517AB5AB9005230B0 /* provinceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = provinceTests.m; sourceTree = "<group>"; };
+		A677CE0317C216B800C5044D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A677CE0417C216B800C5044D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A677CE0517C216B800C5044D /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		A677CE0817C2197800C5044D /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		A677CE0917C2197800C5044D /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		A677CE0A17C2197800C5044D /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		A6CB388B179E77420068543B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A6E8D7DF17B0E47400370409 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A6E8D7E117B0E47900370409 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -160,6 +170,10 @@
 		A63463E6179CD54B00261247 /* TripShareUI */ = {
 			isa = PBXGroup;
 			children = (
+				A677CDFF17C215DE00C5044D /* Login */,
+				A677CE0017C215DE00C5044D /* SearchTrip */,
+				A677CE0117C215DE00C5044D /* TripMap */,
+				A677CE0217C215DE00C5044D /* UserCenter */,
 				A65DB05017AB5A29005230B0 /* Source */,
 				A63463EF179CD54B00261247 /* AppDelegate.h */,
 				A63463F0179CD54B00261247 /* AppDelegate.m */,
@@ -215,6 +229,40 @@
 				A65DB05117AB5A30005230B0 /* provinces.plist */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		A677CDFF17C215DE00C5044D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A677CE0317C216B800C5044D /* LoginViewController.h */,
+				A677CE0417C216B800C5044D /* LoginViewController.m */,
+				A677CE0517C216B800C5044D /* LoginViewController.xib */,
+				A677CE0817C2197800C5044D /* RegisterViewController.h */,
+				A677CE0917C2197800C5044D /* RegisterViewController.m */,
+				A677CE0A17C2197800C5044D /* RegisterViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A677CE0017C215DE00C5044D /* SearchTrip */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SearchTrip;
+			sourceTree = "<group>";
+		};
+		A677CE0117C215DE00C5044D /* TripMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TripMap;
+			sourceTree = "<group>";
+		};
+		A677CE0217C215DE00C5044D /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserCenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +343,8 @@
 				A63463FA179CD54B00261247 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A63463FD179CD54B00261247 /* MainStoryboard_iPad.storyboard in Resources */,
 				A65DB05217AB5A30005230B0 /* provinces.plist in Resources */,
+				A677CE0717C216B800C5044D /* LoginViewController.xib in Resources */,
+				A677CE0C17C2197800C5044D /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +384,8 @@
 				A63463F1179CD54B00261247 /* AppDelegate.m in Sources */,
 				A6346400179CD54B00261247 /* MasterViewController.m in Sources */,
 				A6346403179CD54B00261247 /* DetailViewController.m in Sources */,
+				A677CE0617C216B800C5044D /* LoginViewController.m in Sources */,
+				A677CE0B17C2197800C5044D /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +515,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -480,6 +533,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
