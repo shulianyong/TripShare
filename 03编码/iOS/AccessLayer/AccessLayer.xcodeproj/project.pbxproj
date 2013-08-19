@@ -174,7 +174,7 @@
 				A6087E5717C1FE7C007F14BE /* SqliteUtility.h */,
 			);
 			name = SqliteUtility;
-			path = ../../TripShareCommon/TripShareCommon/SqliteUtility;
+			path = "../../../../../../../../../../Work/SVN/婴幼儿健康项目/04编码/0401源代码/iOS/AccessLayer/SqliteUtility";
 			sourceTree = "<group>";
 		};
 		A6346565179CD9F300261247 = {
