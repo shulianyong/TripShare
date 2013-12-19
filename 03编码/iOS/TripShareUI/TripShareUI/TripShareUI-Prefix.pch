@@ -10,5 +10,6 @@
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
+#define RGBColor(aRed,aGreen,aBlue) [UIColor colorWithRed:(aRed/255.0) green:(aGreen/255.0) blue:(aBlue/255.0) alpha:1]
 #endif

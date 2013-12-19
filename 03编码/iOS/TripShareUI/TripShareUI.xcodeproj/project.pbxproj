@@ -32,6 +32,9 @@
 		A677CE0717C216B800C5044D /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A677CE0517C216B800C5044D /* LoginViewController.xib */; };
 		A677CE0B17C2197800C5044D /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A677CE0917C2197800C5044D /* RegisterViewController.m */; };
 		A677CE0C17C2197800C5044D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A677CE0A17C2197800C5044D /* RegisterViewController.xib */; };
+		A6C4F4F017E46EDB005BD4BA /* VCUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C4F4EE17E46EDB005BD4BA /* VCUserCenter.m */; };
+		A6C4F4F117E46EDB005BD4BA /* VCUserCenter.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C4F4EF17E46EDB005BD4BA /* VCUserCenter.xib */; };
+		A6C4F4F417E47333005BD4BA /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6C4F4F317E47333005BD4BA /* test.jpg */; };
 		A6CB388C179E77420068543B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CB388B179E77420068543B /* QuartzCore.framework */; };
 		A6E8D7E017B0E47400370409 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8D7DF17B0E47400370409 /* SystemConfiguration.framework */; };
 		A6E8D7E217B0E47900370409 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E8D7E117B0E47900370409 /* MobileCoreServices.framework */; };
@@ -89,6 +92,10 @@
 		A677CE0817C2197800C5044D /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		A677CE0917C2197800C5044D /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		A677CE0A17C2197800C5044D /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		A6C4F4ED17E46EDB005BD4BA /* VCUserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCUserCenter.h; sourceTree = "<group>"; };
+		A6C4F4EE17E46EDB005BD4BA /* VCUserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCUserCenter.m; sourceTree = "<group>"; };
+		A6C4F4EF17E46EDB005BD4BA /* VCUserCenter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCUserCenter.xib; sourceTree = "<group>"; };
+		A6C4F4F317E47333005BD4BA /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		A6CB388B179E77420068543B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A6E8D7DF17B0E47400370409 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		A6E8D7E117B0E47900370409 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -191,6 +198,7 @@
 		A63463E7179CD54B00261247 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6C4F4F217E47333005BD4BA /* Images */,
 				A63463E8179CD54B00261247 /* TripShareUI-Info.plist */,
 				A63463E9179CD54B00261247 /* InfoPlist.strings */,
 				A63463EC179CD54B00261247 /* main.m */,
@@ -261,8 +269,19 @@
 		A677CE0217C215DE00C5044D /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
+				A6C4F4ED17E46EDB005BD4BA /* VCUserCenter.h */,
+				A6C4F4EE17E46EDB005BD4BA /* VCUserCenter.m */,
+				A6C4F4EF17E46EDB005BD4BA /* VCUserCenter.xib */,
 			);
 			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		A6C4F4F217E47333005BD4BA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6C4F4F317E47333005BD4BA /* test.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +364,8 @@
 				A65DB05217AB5A30005230B0 /* provinces.plist in Resources */,
 				A677CE0717C216B800C5044D /* LoginViewController.xib in Resources */,
 				A677CE0C17C2197800C5044D /* RegisterViewController.xib in Resources */,
+				A6C4F4F117E46EDB005BD4BA /* VCUserCenter.xib in Resources */,
+				A6C4F4F417E47333005BD4BA /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +407,7 @@
 				A6346403179CD54B00261247 /* DetailViewController.m in Sources */,
 				A677CE0617C216B800C5044D /* LoginViewController.m in Sources */,
 				A677CE0B17C2197800C5044D /* RegisterViewController.m in Sources */,
+				A6C4F4F017E46EDB005BD4BA /* VCUserCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,10 +531,7 @@
 				GCC_PREFIX_HEADER = "TripShareUI/TripShareUI-Prefix.pch";
 				INFOPLIST_FILE = "TripShareUI/TripShareUI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/TripShare-bcaeqgnlvadfkzdujqxlvwtlidvk/Build/Products/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -527,10 +546,7 @@
 				GCC_PREFIX_HEADER = "TripShareUI/TripShareUI-Prefix.pch";
 				INFOPLIST_FILE = "TripShareUI/TripShareUI-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/TripShare-bcaeqgnlvadfkzdujqxlvwtlidvk/Build/Products/Debug-iphoneos\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

@@ -7,17 +7,30 @@
 //
 
 #import "AppDelegate.h"
+#import "UserCenter/VCUserCenter.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
     }
+    else
+    {
+        UITabBarController *tbarMain = [[UITabBarController alloc] init];
+        VCUserCenter *userCenter = [[VCUserCenter alloc] initWithNibName:@"VCUserCenter" bundle:nil];
+        UINavigationController *nvUserCenter = [[UINavigationController alloc] initWithRootViewController:userCenter];
+        tbarMain.viewControllers = @[nvUserCenter];
+        
+        self.window.rootViewController = tbarMain;
+        [self.window makeKeyAndVisible];
+    }
+    
     return YES;
 }
 							
